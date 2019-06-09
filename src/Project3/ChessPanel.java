@@ -91,6 +91,7 @@ public class ChessPanel extends JPanel implements ActionListener {
      * Public default constructor.
      *****************************************************************/
     public ChessPanel() {
+
         model = new ChessModel();
         firstTurnFlag = true;
         vsAI = false;
